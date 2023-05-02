@@ -3,8 +3,7 @@ working with renders
 '''
 from django.shortcuts import render
 
-'''
-Create a function for the home page,
-'''
+
 def home(request):
+    # creating home requests
     return render(request, 'home.html', {})
